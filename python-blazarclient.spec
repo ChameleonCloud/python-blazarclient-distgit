@@ -1,13 +1,13 @@
-%global git_branch chameleoncloud-ocata
+%global git_branch chameleoncloud-stable-rocky
 
 Name:           python-blazarclient
 Epoch:          1
 Summary:        Python client for Blazar
-Version:        0.3.0
+Version:        2.0.0
 Release:        1%{?dist}
 License:        ASL 2.0
 URL:            http://www.openstack.org
-Source0:        https://github.com/ChameleonCloud/python-blazarclient/archive/chameleoncloud/ocata/%{name}-%{version}.tar.gz
+Source0:        https://github.com/ChameleonCloud/python-blazarclient/archive/chameleoncloud/stable/rocky/%{name}-%{version}.tar.gz
 
 BuildArch:        noarch
 BuildRequires:    python2-devel
@@ -45,5 +45,5 @@ A Python and command line client library for Blazar.
 %{python2_sitelib}/python_blazarclient*
 
 %changelog
-* Fri Aug 25 2017 Pierre Riteau <priteau@uchicago.edu> 1:0.3.0-1
-- Initial packaging for Ocata
+* Tue Aug 28 2018 Pierre Riteau <priteau@uchicago.edu> 1:2.0.0-1
+- Initial packaging for Rocky
