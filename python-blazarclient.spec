@@ -4,7 +4,7 @@ Name:           python-blazarclient
 Epoch:          1
 Summary:        Python client for Blazar
 Version:        2.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        ASL 2.0
 URL:            http://www.openstack.org
 Source0:        https://github.com/ChameleonCloud/python-blazarclient/archive/chameleoncloud/stable/rocky/%{name}-%{version}.tar.gz
@@ -45,5 +45,7 @@ A Python and command line client library for Blazar.
 %{python2_sitelib}/python_blazarclient*
 
 %changelog
+* Tue Jan 8 2019 Pierre Riteau <pierre@stackhpc.com> 1:2.0.0-2
+- openstack/python-blazarclient: 6786946cb673885adb6cf2a44f98365061e4fa8c
 * Tue Aug 28 2018 Pierre Riteau <priteau@uchicago.edu> 1:2.0.0-1
 - Initial packaging for Rocky
